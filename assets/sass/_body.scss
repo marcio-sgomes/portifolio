@@ -1,0 +1,58 @@
+body {
+    background-image: url("/assets/img/backgroud.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+    main {
+        margin-top: 5.5%;
+    }
+    h1 {
+        color:$color-h1;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        color:$color-h1;
+        text-transform: uppercase;
+    }
+
+    p {
+        color:$color-text;
+    }
+     #h1-text {
+        text-align: center;
+     }
+
+     #p-text {
+        margin-left: 2%;
+        margin-right: 2%;
+     }
+    #figurecapitions {
+        color: $color-text;
+    }
+
+   #icons-main {
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 15vh;
+    
+   }
+
+   .section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    background-color: rgba($color: #ffffff, $alpha: 0.2);
+    
+   }
+
+   #icons-gmail {
+    width: 48px;
+    height: 48px;
+   }
+}

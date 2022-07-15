@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 65.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+header .navigation .menu {
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .navigation .menu ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+header .navigation .menu ul .items a {
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.3s;
+}
+header .navigation .menu ul .items a:hover {
+  color: rgba(255, 255, 255, 0.425);
+}
+
+.banner {
+  width: 100%;
+  height: 25vh;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-weight: 600;
+}
+.banner .container-banner {
+  margin-top: 10%;
+}
+.banner h1 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 1%;
+  text-transform: uppercase;
+  padding-top: 0;
+  color: #ccccff;
+  font-family: "Courier";
+  font-size: 300%;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 16em;
+  animation: type 4s steps(60, end);
+}
+.banner h1 h1 {
+  color: #ccccff;
+  text-decoration: none;
+}
+.banner h1 span {
+  animation: blink 1s infinite;
+}
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+.banner h1 ::selection {
+  background: black;
+}
+.banner #h1-banner-1 {
+  display: flex;
+}
+.banner #h1-banner-2 {
+  display: flex;
+  animation: type2 8s steps(60, end);
+}
+
+body {
+  background-image: url("/assets/img/backgroud.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+body main {
+  margin-top: 5.5%;
+}
+body h1 {
+  color: rgba(255, 255, 255, 0.834);
+  text-transform: uppercase;
+}
+body h3 {
+  color: rgba(255, 255, 255, 0.834);
+  text-transform: uppercase;
+}
+body p {
+  color: rgba(231, 232, 232, 0.995);
+}
+body #h1-text {
+  text-align: center;
+}
+body #p-text {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+body #figurecapitions {
+  color: rgba(231, 232, 232, 0.995);
+}
+body #icons-main {
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 15vh;
+}
+body .section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+body #icons-gmail {
+  width: 48px;
+  height: 48px;
+}
+
+.pitch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.project {
+  margin: 2%;
+  width: 100%;
+  padding-top: 5%;
+}
+.project .image-project {
+  width: 40%;
+}
+.project .p-text-img {
+  width: 40%;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+.project .img-project {
+  margin-top: 5%;
+  display: flex;
+  cursor: pointer;
+  width: 94.5vw;
+  justify-content: space-around;
+}
+.project .img-project .project-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.project .img-project .project-1:hover {
+  transform: rotateY(180deg);
+}
+.project .img-project .project-1 .image-project-1 {
+  display: flex;
+  justify-content: center;
+  backface-visibility: hidden;
+  width: 26.505rem;
+  height: 14.323rem;
+}
+.project .img-project .project-1 .p-text-img-1 {
+  background-color: rgba(152, 149, 149, 0.605);
+  width: 27.777rem;
+  height: 15.009rem;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  backface-visibility: hidden;
+  text-align: center;
+  align-items: center;
+  color: rgba(231, 232, 232, 0.995);
+  transform: rotateY(180deg);
+}
+.project .img-project .project-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.project .img-project .project-2:hover {
+  transform: rotateY(180deg);
+}
+.project .img-project .project-2 .image-project-2 {
+  display: flex;
+  justify-content: center;
+  backface-visibility: hidden;
+  width: 26.505rem;
+  height: 14.323rem;
+}
+.project .img-project .project-2 .p-text-img-2 {
+  background-color: rgba(152, 149, 149, 0.605);
+  width: 27.777rem;
+  height: 15.009rem;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  backface-visibility: hidden;
+  align-items: center;
+  color: rgba(231, 232, 232, 0.995);
+  transform: rotateY(180deg);
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.curriculum {
+  margin: 2%;
+  width: 100%;
+  padding-top: 5%;
+}
+.curriculum #p-text {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.curriculum .container-embed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.curriculum .container-embed .embed {
+  background-color: aqua;
+  width: 80%;
+  height: 80vh;
+}
+.curriculum .container-embed .button {
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(231, 232, 232, 0.995);
+  border-radius: 10px;
+  display: flex;
+  width: 10vw;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all ease-in-out;
+  transition: 0.4s;
+}
+.curriculum .container-embed .button:hover {
+  background-color: rgba(231, 232, 232, 0.995);
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+}
+
+.contact {
+  margin: 2%;
+  padding-top: 5%;
+}
+.contact .container-photo-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.contact .container-photo-form .photo-container {
+  display: flex;
+  margin-top: 5%;
+  margin-left: -4.8%;
+  width: 30%;
+  height: 100%;
+}
+.contact .container-photo-form .photo-container #img-photo {
+  width: 80%;
+}
+.contact .container-photo-form .container-form {
+  display: flex;
+  align-items: center;
+}
+.contact .container-photo-form .container-form .text-form .h1-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact .container-photo-form .container-form .text-form .h1-form #h1-1 {
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+.contact .container-photo-form .container-form .text-form fieldset {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

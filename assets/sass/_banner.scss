@@ -1,0 +1,75 @@
+
+.banner {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(255, 255, 255, 0.0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-weight: 600;
+  
+   .container-banner {
+    margin-top:10% ;
+   }
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1%;
+        text-transform: uppercase;
+        padding-top: 0;
+        color: #ccccff; 
+        font-family: "Courier";
+        font-size: 300%;
+        margin: 10px 0 0 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 16em;
+        animation: type 4s steps(60, end); 
+        
+  
+          
+          h1 {
+            color: #ccccff;
+            text-decoration: none;
+          }
+          
+          span{
+            animation: blink 1s infinite;
+          }
+          
+          @keyframes type{ 
+            from { width: 0; } 
+          } 
+          
+          @keyframes type2{
+            0%{width: 0;}
+            50%{width: 0;}
+            100%{ width: 100; } 
+          } 
+          
+          @keyframes blink{
+            to{opacity: .0;}
+          }
+          
+          ::selection{
+            background: black;
+          }
+  
+    }
+
+
+    #h1-banner-1 {
+        display: flex;
+
+        
+     
+   
+    }
+    #h1-banner-2 {
+        display: flex;
+        animation: type2 8s steps(60, end);
+     
+   
+    }
+}

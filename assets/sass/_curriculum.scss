@@ -1,0 +1,50 @@
+.curriculum {
+    margin: 2%;
+    width: 100%;
+    padding-top: 5%;
+    
+    #p-text {
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .container-embed {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;  
+
+        .embed {
+            background-color: aqua;
+            width: 80%;
+            height: 80vh;
+        }
+
+        .button {
+            margin-top: 5%;
+            background-color: rgba(0, 0, 0, 0.500);
+            color: $color-text;
+            border-radius: 10px;
+            display: flex;
+            width: 10vw;
+            height: 5vh;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            font-size: 13px;
+            transition: all ease-in-out;
+            transition: 0.4s;
+           &:hover {
+            background-color: $color-text;
+            color: rgba(0, 0, 0, 0.600);;
+            border-radius: 50px;
+           
+            
+           }
+        }
+
+        
+    }
+    
+}

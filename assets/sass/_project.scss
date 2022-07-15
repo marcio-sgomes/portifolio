@@ -1,0 +1,109 @@
+// caixa do project
+.project {
+    margin: 2%;
+    width: 100%;
+    padding-top: 5%;
+
+     // caixa das imgs
+     .image-project {
+        width: 40%;
+       
+        
+    }
+
+    // caixa dos textos dos projetos
+    .p-text-img {
+        width: 40%;
+        text-align: center;
+        backdrop-filter: blur(8px);
+    }
+
+    // caixa que envolve todos os projetos e texto
+    .img-project {
+        margin-top: 5%;
+        display: flex;
+        cursor: pointer;
+            width: 94.5vw;
+    justify-content: space-around;
+        
+       
+    
+        // caixa que envolve o primeiro projeto 
+        .project-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            transform-style: preserve-3d;
+            transition: all 0.5s ease;
+            &:hover {
+                transform: rotateY(180deg);
+    
+            }
+            
+            // caixa que envolve a img 1            
+            .image-project-1 {
+                display: flex;
+                justify-content: center;
+                backface-visibility: hidden;
+                width: 26.505rem;
+                height: 14.323rem;
+            }
+
+            // caixa que envolve o text-1
+            .p-text-img-1 {
+               background-color: rgba(152, 149, 149, 0.605);
+               width: 27.777rem;
+               height: 15.009rem;
+                display: flex;
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                backface-visibility: hidden;
+                text-align: center;
+                align-items: center;
+                color:$color-text;
+                transform: rotateY(180deg);
+            }
+        }
+        .project-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            transform-style: preserve-3d;
+            transition: all 0.5s ease;
+            &:hover {
+                transform: rotateY(180deg);
+    
+            }
+            
+            // caixa que envolve a img 2          
+            .image-project-2 {
+               
+                display: flex;
+                justify-content: center;
+                backface-visibility: hidden;
+                width: 26.505rem;
+                height: 14.323rem;
+            }
+
+            // caixa que envolve o text-1
+            .p-text-img-2 {
+                background-color: rgba(152, 149, 149, 0.605);
+                width: 27.777rem;
+                height: 15.009rem;
+                display: flex;
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                backface-visibility: hidden;
+                align-items: center;
+                color:$color-text;
+                transform: rotateY(180deg);
+            }
+        }
+    }
+}
