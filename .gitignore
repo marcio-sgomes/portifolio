@@ -1,0 +1,10 @@
+# Dependências e cache do Sass
+node_modules/
+.sass-cache/
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
